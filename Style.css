@@ -1,0 +1,200 @@
+html {
+ font-family:helvetica;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #383B40;
+	color: silver;
+}
+
+.header {
+    background:#27292D;
+    height:45px;
+    padding: 0;
+    width:100% ;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .99;
+}
+
+.left-head {
+    float: left;
+    height: 45px;
+    width: 33.333%;
+}
+.menu {
+    float: left;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.logo {
+   float: left;
+   text-align: center;
+   margin-top: 9px;
+   width: 33.333%;
+   height: 45px;
+}
+
+.right-head {
+    float: left;
+    height: 45px;
+    width: 33.333%;
+}
+
+
+.block {
+	background-color: #2D2F34;
+	min-height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.innerblock {
+	text-align: left;
+    max-width: 730px;
+    margin: auto;
+    padding: 20px;
+}
+
+.in {
+	color:#27292D ;
+    background-color:#FFFFFF;
+    text-align: left;
+    max-width: 500px;
+    border-radius: 25px;
+    min-height: 120px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+
+hr {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
+}
+
+
+
+.img-2 {
+	max-width: 40%;
+
+}
+
+.in-2 {
+
+	text-align:left;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 10px;
+	max-height: 100px;
+
+}
+
+.in-3 {
+	color: black;
+	text-align:left;
+	width: 60%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 10px;
+	max-height: 80px;
+
+}
+
+.in-4 {
+	text-align:left;
+	width: 80%;
+	margin: auto;
+	min-height: 50px;
+
+}
+
+.in-5 {
+	text-align:left;
+	width: 80%;
+	margin: auto;
+	min-height: 50px;
+
+}
+
+
+.in-6 {
+	text-align:left;
+	width: 80%;
+	margin: auto;
+	min-height: 50px;
+
+}
+
+.in-7 {
+	text-align:left;
+	width: 80%;
+	margin: auto;
+	min-height: 50px;
+}
+
+.in-8 {
+	text-align:left;
+	width: 80%;
+	margin: auto;
+	min-height: 50px;
+
+}
+
+.in-9 {
+	text-align:left;
+	width: 80%;
+	margin: auto;
+	min-height: 50px;
+	padding: 8px;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.in-10 {
+	text-align:left;
+	width: 50%;
+	margin: auto;
+	min-height: 50px;
+}
+
+.img-3 {
+	max-width: 90%;
+}
+
+.footer {
+    margin-top: 8px;
+    background-color:   #27292D;
+    min-height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
